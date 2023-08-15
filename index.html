@@ -117,22 +117,12 @@
     </tr>
 
     <tr onmouseout="seg2pix_stop()" onmouseover="seg2pix_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:20px;width:40%;vertical-align:middle">
         <div class="one">
-          <img src='images/ref2sketch.PNG' width="320">
+          <img src='images/ref2sketch.PNG' width="160">
         </div>
-        <script type="text/javascript">
-          function seg2pix_start() {
-            document.getElementById('bakedsdf_image').style.opacity = "1";
-          }
-
-          function seg2pix_stop() {
-            document.getElementById('bakedsdf_image').style.opacity = "0";
-          }
-          seg2pix_stop()
-        </script>
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:20px;width:60%;vertical-align:middle">
         <a href="https://www.mdpi.com/2076-3417/11/4/1464?ref=https://codemonkey.link/">
           <papertitle>Seg2pix: Few Shot Training Line Art Colorization with Segmented Image Data</papertitle>
         </a>
