@@ -89,18 +89,8 @@
     <tr onmouseout="ref2sketch_stop()" onmouseover="ref2sketch_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/ref2sketch.PNG' width="160">
+          <img src='./images/ref2sketch.PNG' width="160">
         </div>
-        <script type="text/javascript">
-          function ref2sketch_start() {
-            document.getElementById('bakedsdf_image').style.opacity = "1";
-          }
-
-          function ref2sketch_stop() {
-            document.getElementById('bakedsdf_image').style.opacity = "0";
-          }
-          ref2sketch_stop()
-        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://dl.acm.org/doi/abs/10.1145/3550454.3555504">
@@ -129,10 +119,6 @@
     <tr onmouseout="seg2pix_stop()" onmouseover="seg2pix_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='bakedsdf_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/bakedsdf_after.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
           <img src='images/ref2sketch.PNG' width="320">
         </div>
         <script type="text/javascript">
